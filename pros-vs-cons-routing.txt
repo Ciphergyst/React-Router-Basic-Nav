@@ -1,0 +1,12 @@
+Client side routing has manu pros vs Server side routing  by removing alot of the network load and computation,
+the server has to make in any given moment. Each click, or user interaction with the page or application shouldnt have
+to "phone home" each and every time to render or compose new elements and data. By shifting this requirement to the clients side,
+information can be rendered faster in most cases and frees up the server to apply its resources and computations to more important tasks
+this can effect many other interactions with the application that are bothe beneficial to the user and the content provider.
+
+Some cons might be heavy websites with multiple pages and resources may take slighlty longer on the initial load because the entire site is being rendered 
+locally and some of the data may not even be necessary based on the users interaction. There is also a bit more code required to set up efficient
+client-side routing. Also SEO can be less optimized being Server-side was the standard for so long, search engines are not yet completely optimized to
+index client-side pages and content. I beleieve more and more inovation, and optimixzation will occur that will enable client-side rendering to be the
+new norm for most web application and sites.
+
